@@ -1,0 +1,42 @@
+/* Reset -----------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Main layout styles------------------------------*/
+.main-wrapper {
+    max-width: 980px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    margin: 0 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+
+/* Search bar styles ------------------------------*/
+#search-bar {
+    width: 60%;
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    color: rgb(119, 119, 119);
+}
+
+input::placeholder {
+    color: rgb(168, 168, 168);
+}

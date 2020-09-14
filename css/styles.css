@@ -12,7 +12,7 @@ body {
     margin: auto;
 }
 
-.grid {
+#gridGallery {
     display: grid;
     margin: 0 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

@@ -1,2 +1,2 @@
-# Interactive-Photo-Gallery-FEWD-proj-4
+# Interactive-Photo-Gallery-FEWD-proj-5
  An interactive photo gallery using JavaScript
